@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Open+Sans:wght@300&family=Tilt+Neon&display=swap");
+
+body {
+  font-family: "Nunito", sans-serif !important;
+  font-family: "Open Sans", sans-serif !important;
+  font-family: "Tilt Neon", sans-serif !important;
+  background-color: #ffe3bb !important;
+}
+
+img:hover {
+  opacity: 80%;
+  transform: scale(0.98);
+}
+
+img {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
