@@ -21,57 +21,44 @@
     <script src="./script.js"></script>
   </head>
   <body class="p-4 main-body">
-    <h3 class="text-decoration-underline">ITE-102 Homework files</h3>
-    <div class="pb-4">
-      <div>Student Name: Ros Sopheak</div>
-      <div>Majoring: Computer Science</div>
-    </div>
-    <div class="files-container">
-      <div class="text-black d-flex gap-4" role="button">
-        <a
-          href="./pages/homework1/index.html"
-          class="text-black link-offset-2 text-decoration-underline"
-          >Homework 1</a
-        >
-        <div class="text-primary">( 10/Nov/2023 )</div>
-      </div>
-      <div class="text-black d-flex gap-4" role="button">
-        <a
-          href="./pages/homework2/index.html"
-          class="text-black link-offset-2 text-decoration-underline"
-          >Homework 2</a
-        >
-        <div class="text-primary">( 17/Nov/2023 )</div>
-      </div>
-      <div class="text-black d-flex gap-4" role="button">
-        <a
-          href="./pages/homework3/index.html"
-          class="text-black link-offset-2 text-decoration-underline"
-          >Homework 3</a
-        >
-        <div class="text-primary">( 1/Dec/2023 )</div>
-      </div>
-    </div>
-    <div onclick="revealMe(true)" class="reveal-btn pt-4" role="button">
-      Click to reveal who am I!
-    </div>
-    <div class="pt-4 w-50 adam-info" style="display: none">
-      <div class="fs-3">Hello folks! I am Adam.</div>
-      <div class="pb-3">
-        I am a senior software developer, I have worked on and built many kinds
-        of applications including web applications and desktop applications and
-        professionally skilled in both the frontend side and the backend side
-        for 3 years now and going into 4! and no, I am not any older than many
-        of you. I am only 20 years old but I started my journey as a junior
-        developer way back when everyone was enjoying high school life.
-      </div>
+    <div class="h-100">
+      <h3 class="text-decoration-underline">ITE-102 Homework files</h3>
       <div class="pb-4">
-        Apart from programming, I like math. I used to teach calculus I and II
-        and now I am currently working on real analysis.
+        <div>Student Name: Ros Sopheak</div>
+        <div>Majoring: Computer Science</div>
       </div>
-      <div style="display: grid; gap: 1rem">
+      <div class="files-container" style="height: 100%">
+        <div class="text-black d-flex gap-3">
+          <a
+            href="./pages/homework1/index.html"
+            class="text-black link-offset-2 text-decoration-underline scale-hover"
+            >Homework 1</a
+          >
+          <div class="text-primary">( 10/Nov/2023 )</div>
+        </div>
+        <div class="text-black d-flex gap-3">
+          <a
+            href="./pages/homework2/index.html"
+            class="text-black link-offset-2 text-decoration-underline scale-hover"
+            >Homework 2</a
+          >
+          <div class="text-primary">( 17/Nov/2023 )</div>
+        </div>
+        <div class="text-black d-flex gap-3">
+          <a
+            href="./pages/homework3/index.html"
+            class="text-black link-offset-2 text-decoration-underline scale-hover"
+            >Homework 3</a
+          >
+          <div class="text-primary">( 1/Dec/2023 )</div>
+          <div class="fw-bold text-danger">(LATEST)</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pb-3 w-50 adam-info h-100 footer">
+      <div class="d-flex gap-3">
         <div>
-          <div>Check out my work experience below.</div>
           <div
             onclick="window.location.href = 'https://www.linkedin.com/in/ros-sopheak-46ba5723a/'"
             role="button"
@@ -92,12 +79,12 @@
             </svg>
           </div>
         </div>
+        <div>|</div>
         <div>
-          <div>My portfolio:</div>
           <a
             href="https://profile-page-umber.vercel.app/"
             class="text-primary link-offset-2"
-            >Click here!</a
+            >Portfolio</a
           >
         </div>
       </div>
