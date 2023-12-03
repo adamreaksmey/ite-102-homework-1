@@ -3,11 +3,15 @@
   overflow: hidden;
 }
 
-/* @keyframes marquee {
+@keyframes marquee {
   0% {
     transform: translateX(-100%);
   }
   100% {
     transform: translateX(100%);
   }
+}
+
+/* .scrolling-div {
+  animation: marquee 15s linear infinite;
 } */
