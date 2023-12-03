@@ -9,18 +9,18 @@ let speed = 4;
 $(document).ready(function () {
   body = $(".main-body");
   scrollingDiv = $(".scrolling-div");
-  scrollText();
+  scrollDiv();
 });
 
-function scrollText() {
-  const initialPosition = window.innerWidth;
+function scrollDiv() {
+  const initialPosition = -scrollingDiv.width();
   let currentPosition = initialPosition;
-  
-  function animate() {
-    currentPosition -= speed;
 
-    if (currentPosition < -scrollingDiv.width()) {
-      currentPosition = window.innerWidth;
+  function animate() {
+    currentPosition += speed;
+
+    if (currentPosition > window.innerWidth) {
+      currentPosition = -scrollingDiv.width();
     }
 
     scrollingDiv.css("transform", `translateX(${currentPosition}px)`);
