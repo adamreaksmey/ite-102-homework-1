@@ -1,0 +1,36 @@
+body {
+  font-family: "Nunito", sans-serif !important;
+  font-family: "Open Sans", sans-serif !important;
+  font-family: "Tilt Neon", sans-serif !important;
+  background-color: #ffe3bb !important;
+}
+
+img:hover {
+  opacity: 80%;
+  transform: scale(0.98);
+}
+
+img {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.w-0 {
+  width: 0% !important;
+}
+
+.scale-hover {
+  transition: all 0.3s ease !important;
+}
+.scale-hover:hover {
+  transform: scale(1.1);
+  opacity: 50%;
+}
+
+.footer {
+  display: flex;
+  align-items: end;
+  z-index: -1;
+  position: absolute;
+  bottom: 0;
+}

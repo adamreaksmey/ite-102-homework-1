@@ -1,0 +1,13 @@
+.scrolling-div {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* @keyframes marquee {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+} */
